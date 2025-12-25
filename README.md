@@ -23,5 +23,6 @@
 
 <img width="1053" height="566" alt="image" src="https://github.com/user-attachments/assets/9b6977bb-5648-486a-8758-d2cc8ce30c59" />
 <실제 라이브 중 텍스트로 남는 로그>
+
  - 구분자는 | 로 하여 필드마다 로그를 남김
  
