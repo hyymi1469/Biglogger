@@ -19,10 +19,9 @@
 # 사용법
  - xml 포맷을 사용하여 로그를 제작 및 관리한다.
  - 다음과 같이 예를 들면 현재 접속자 로그를 일정 주기로 찍는 CurUserCountLogger로그의 xml이다.(Backend 폴더의 bigLogger.xml 에 있는 내용)
-<img width="984" height="474" alt="image" src="https://github.com/user-attachments/assets/28318a1f-b80f-40df-903d-0827ad48df33" />
  - 해당 xml을 통해서 로그를 생성하는 함수를 제작함. 사용 언어에 따라 로그 함수를 자체적으로 생산하는 코드를 제작함.
 
-<img width="1111" height="133" alt="image" src="https://github.com/user-attachments/assets/7e9f54be-a647-413f-9c86-378ec98a6cc6" />
+<img width="1053" height="566" alt="image" src="https://github.com/user-attachments/assets/9b6977bb-5648-486a-8758-d2cc8ce30c59" />
 <실제 라이브 중 텍스트로 남는 로그>
  - 구분자는 | 로 하여 필드마다 로그를 남김
  
