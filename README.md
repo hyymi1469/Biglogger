@@ -16,11 +16,13 @@
 - 해당 표를 엑셀로 뽑아낼 수 있도록 하기
 - 로그 한 번에 80MB로 제한
 - 로그가 대용량이므로 DB에 저장할 때 bulk Insert 사용
-- <img width="568" height="708" alt="이미지" src="https://github.com/user-attachments/assets/e8d4ff58-6889-43fe-aeac-b466de2e6e4f" />
-첫 번째 컬럼 - 로그 테이블 타이틀 사용
-두 번째 컬럼 - 텍스트로그가 많으므로 로그를 gzip으로 압축한 후 db의 BLOB으로 insert
+  <img width="568" height="708" alt="이미지" src="https://github.com/user-attachments/assets/e8d4ff58-6889-43fe-aeac-b466de2e6e4f" />
+- 첫 번째 컬럼 - 로그 테이블 타이틀 사용
+- 두 번째 컬럼 - 텍스트로그가 많으므로 로그를 gzip으로 압축한 후 db의 BLOB으로 insert
 
 - I/O Trhead -> LogicThread -> DBThread 구분하여 성능 끌어올리기
+  <img width="1101" height="596" alt="이미지 (1)" src="https://github.com/user-attachments/assets/c1f9fd19-614e-457a-8a70-9243c951f9f7" />
+
 - 아래 사용법을 한 번에 요약(https://www.youtube.com/watch?v=he_Q0l8OGZY)
 
 # 사용법
