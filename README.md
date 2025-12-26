@@ -15,6 +15,7 @@
 - 텍스트로만 이루어진 로그를 표로 만들어 보기 용이하게 하기 위해 개발
 - 해당 표를 엑셀로 뽑아낼 수 있도록 하기
 - 로그 한 번에 80MB로 제한
+- 로그가 대용량이므로 DB에 저장할 때 bulk Insert 사용
 - I/O Trhead -> LogicThread -> DBThread 구분하여 성능 끌어올리기
 - 아래 사용법을 한 번에 요약(https://www.youtube.com/watch?v=he_Q0l8OGZY)
 
