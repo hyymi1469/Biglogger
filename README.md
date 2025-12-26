@@ -28,4 +28,9 @@
  - 보통은 XML에 맞춰서 자동으로 로그 함수를 만들어주는 프로그램을 따로 돌림
  
 <img width="1910" height="1020" alt="이미지" src="https://github.com/user-attachments/assets/43dcea44-556c-4e86-a84a-532d70b17320" />
- - 위처럼 18MB되는 파일을 업로드 한다.(최대 80MB까지 올릴 수 있도록 설정)
+ - 위처럼 18MB되는 로그 파일을 업로드 한다.(최대 80MB까지 올릴 수 있도록 설정)
+
+<img width="507" height="152" alt="image" src="https://github.com/user-attachments/assets/8b8d59f2-31dd-420e-8e4a-7a99d87a1599" />
+ - 18MB의 로그만 되어도 거의 8만줄에 달하는 로그가 있다.
+ - 해당 로그를 한 줄씩 DB에 insert 하면 8만 번 insert 하고 시간도 오래 걸리므로 Batch Insert를 사용하여 대량의 insert를 빠르게 실행
+
