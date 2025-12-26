@@ -31,6 +31,19 @@
  - 위처럼 18MB되는 로그 파일을 업로드 한다.(최대 80MB까지 올릴 수 있도록 설정)
 
 <img width="507" height="152" alt="image" src="https://github.com/user-attachments/assets/8b8d59f2-31dd-420e-8e4a-7a99d87a1599" />
+ 
  - 18MB의 로그만 되어도 거의 8만줄에 달하는 로그가 있다.
- - 해당 로그를 한 줄씩 DB에 insert 하면 8만 번 insert 하고 시간도 오래 걸리므로 Batch Insert를 사용하여 대량의 insert를 빠르게 실행
+ - 해당 로그를 한 줄씩 DB에 insert 하면 8만 번 insert 하고 시간도 오래 걸리므로 Batch Insert를 사용하여 대량의 insert를 빠르게 실행(테스트 결과 18MB insert 시 대략 2초 정도 걸림)
+
+<img width="1441" height="754" alt="이미지 (1)" src="https://github.com/user-attachments/assets/0a862c94-aedd-4999-9bb9-c20a2c929711" />
+ - 파일이 업로드 되면 좌측에 업로드 완성 된 log 이름이 뜸
+
+ <img width="992" height="498" alt="이미지" src="https://github.com/user-attachments/assets/0c8b2e9e-165a-4bfa-a23f-83d979b3220d" />
+ - 리액트에 검색 기능을 넣어서 로그 테이블을 검색하기 용이하게 함
+
+ <img width="1853" height="774" alt="이미지 (1)" src="https://github.com/user-attachments/assets/d61f2df3-487c-450f-914d-59e26e76674a" />
+ - 각 컬럼마다 검색을 할 수 있게 함( 각 컬럼마다 검색은 or 로 적용)
+ - 적용된 내용을 엑셀로 뽑기 가능
+
+
 
