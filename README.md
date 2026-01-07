@@ -16,7 +16,8 @@
 - 해당 표를 엑셀로 뽑아낼 수 있도록 하기
 - 로그 한 번에 80MB로 제한
 - 로그가 대용량이므로 DB에 저장할 때 bulk Insert 사용
-  <img width="568" height="708" alt="이미지" src="https://github.com/user-attachments/assets/e8d4ff58-6889-43fe-aeac-b466de2e6e4f" />
+  <img width="1420" height="771" alt="image" src="https://github.com/user-attachments/assets/a34812f6-42e8-402f-a53a-a7bada8ccc79" />
+
 - 첫 번째 컬럼 - 로그 테이블 타이틀 사용
 - 두 번째 컬럼 - 텍스트로그가 많으므로 로그를 gzip으로 압축한 후 db의 BLOB으로 insert
 
